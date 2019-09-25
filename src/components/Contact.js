@@ -1,6 +1,11 @@
 import React from "react";
 
-const Contact = () => {
+const Contact = props => {
+  //Programmatic Redirect. Using the props automatically attached by the react-router.
+  //props has a history object passed by the router
+  // setTimeout(() => {
+  //   props.history.push("/about");
+  // }, 2000);
   return (
     <div className="container">
       <h4 className="center">Contact</h4>
