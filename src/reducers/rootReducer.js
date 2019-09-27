@@ -1,5 +1,9 @@
 const initState = {
-  posts: []
+  posts: [
+    { id: "1", title: "ABC", body: "alphabets" },
+    { id: "2", title: "DEF", body: "alphabets" },
+    { id: "3", title: "GHI", body: "alphabets" }
+  ]
 };
 
 //first time it runs, we pass initState to store via this rootReducer
